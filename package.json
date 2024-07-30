@@ -1,0 +1,13 @@
+{
+  "name": "clone-instagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "cd hardhat && npx hardhat compile",
+    "start-front": "cd react && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
