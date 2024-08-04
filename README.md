@@ -2,14 +2,14 @@
 
 **Curso de youtube - Giberts Ahumada - Chainlink Developer Expert.**
 
-**Parte 1:** [https://youtu.be/w23abGly56I](https://youtu.be/w23abGly56I)
+**Parte 1 -** [Youtube 1: ](https://youtu.be/w23abGly56I)
 
-**Parte 2:** [https://www.youtube.com/watch?v=Sd9I7gS_P7k](https://www.youtube.com/watch?v=Sd9I7gS_P7k)
+**Parte 2 -** [Youtube 2: ](https://www.youtube.com/watch?v=Sd9I7gS_P7k)
 
 [![Captura de pantalla del proyecto](https://github.com/user-attachments/assets/4534758f-3458-4f01-92b8-2bebe4976e63)](https://github.com/user-attachments/assets/4534758f-3458-4f01-92b8-2bebe4976e63)
 
 
-**Notion Page:** [https://www.youtube.com/watch?v=Sd9I7gS_P7k](https://www.youtube.com/watch?v=Sd9I7gS_P7k)
+**Notion Page -** [Notion:](https://www.youtube.com/watch?v=Sd9I7gS_P7k)
 
 [![Captura de pantalla de la configuración del proyecto](https://github.com/user-attachments/assets/125ba2ad-2650-4d07-b7c8-6527122aefdd)](https://github.com/user-attachments/assets/125ba2ad-2650-4d07-b7c8-6527122aefdd)
 
