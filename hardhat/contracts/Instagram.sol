@@ -2,35 +2,56 @@
 
 pragma solidity ^0.8.24;
 
+/**
+ @title Clone instagram Web3
+ @author Gilberts Ahumada
+ @notice You can use this contract to emulate descentralized web3 social app
+ @dev A este contrato le faltan mas funcionalidades pero cumple con lo minimo
+ @custom:clonando este es un contrato minimalista de instagram 
+ */
 contract Instagram {
-
+    ///@notice Counter for posts
     uint256 public s_postCounterId;
-    // crear posts
-    // dar likes
-    // quitar likes
-    // tenemos un feed
 
+    /**
+    @dev Un struct que define o representa un post en la plataforma
+    @param description la descripcion del post
+    @param uri la uri del post en IPFS
+     */
     struct Post {
         string description;
         string uri;
     }
 
-
-    // Llave -> valor
-    // ID -> Post
+    ///@notice mapping para almacenar los posts y su identificador
     mapping(uint256 => Post) private s_posts;
-    // Posts del usuario
+    
     mapping(address => mapping(uint256 => Post)) private s_postsUser;
     // Conteo de posts por usuario
     mapping(address => uint256) private s_postsCounterByUser;
     // Likes en las publicaciones segun PostId
     mapping(uint256 => address[]) private s_likesOfPost;
 
+
+    /**
+     * @dev Emite cuando se crea un nuevo post.
+     * @param postId El ID del post recién creado.
+     * @param description La descripción del post.
+     * @param owner La dirección del creador del post.
+     */
     event PostAdded(uint256 indexed postId, string description, address owner);
     event Like(uint256 indexed postId, address user);
     event Unlike(uint256 indexed postId, address user);
+    /**
+     * @dev Error que se lanza cuando un post no existe.
+     * @custom:postid El ID del post que no existe.
+     */
     error PostDoesNotExist(uint256);
 
+    /**
+     * @notice Recupera un post específico de un usuario en la plataforma de Instagram.
+     * @param _post Toda la informacion del post
+     */
     function addPost(Post memory _post) external {
         require(bytes(_post.uri).length > 0, "Uri can't be empty");
         s_postCounterId++;
