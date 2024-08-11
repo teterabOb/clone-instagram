@@ -6,10 +6,14 @@
 
 **Parte 2 -** [Youtube 2: ](https://www.youtube.com/watch?v=Sd9I7gS_P7k)
 
+**Parte 3 -** [Youtube 3: ](https://youtu.be/T9LN89OraLY)
+
+**Parte 4 -** [Youtube 4: ](https://youtu.be/exeWVCim-7U)
+
 [![Captura de pantalla del proyecto](https://github.com/user-attachments/assets/4534758f-3458-4f01-92b8-2bebe4976e63)](https://github.com/user-attachments/assets/4534758f-3458-4f01-92b8-2bebe4976e63)
 
 
-**Notion Page -** [Notion:](https://www.youtube.com/watch?v=Sd9I7gS_P7k)
+**Notion Page -** [Notion:](https://feline-tractor-5af.notion.site/Clon-Instagram-Web3-4ef6b1bd5dff4a719a762b93bb8ceb73)
 
 [![Captura de pantalla de la configuración del proyecto](https://github.com/user-attachments/assets/125ba2ad-2650-4d07-b7c8-6527122aefdd)](https://github.com/user-attachments/assets/125ba2ad-2650-4d07-b7c8-6527122aefdd)
 
@@ -19,6 +23,7 @@ Este proyecto tiene como objetivo crear un clon de Instagram basado en Web3, apr
 
 ## Tecnologías clave
 
+* Solidity
 * React
 * Web3.js
 * Chainlink
@@ -28,11 +33,11 @@ Este proyecto tiene como objetivo crear un clon de Instagram basado en Web3, apr
 
 ```
 ├── packages
-│ ├── web
+│ ├── react
 │ │ ├── src
 │ │ │ └── ...
 │ │ └── ...
-│ └── smart-contracts
+│ └── hardhat
 │ ├── ...
 │ └── ...
 └── ...
@@ -89,6 +94,7 @@ const chainlinkData = useChainlink();
 
 ## Involucrarse
 
+* Si quieres seguir todos los videos visita [la lista de reproducción](https://www.youtube.com/playlist?list=PL2uIxLJ7G8e2Y825VjgxsB8jXxTW5Tp9w).
 * Suscríbete al canal de YouTube para obtener más actualizaciones.
 * Deja tus comentarios y opiniones a continuación.
 * ¡Colabora con el proyecto en GitHub!
