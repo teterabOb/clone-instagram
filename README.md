@@ -86,19 +86,47 @@ const chainlinkData = useChainlink();
 
 ```
 
-## Implementación
+## Configuración del Proyecto
 
-**Paso 1: Configuración del entorno**
+Instalar `dotenv`
 
-**Paso 2: Desarrollo de contratos inteligentes**
+```shell
+npm i dotenv
+```
 
-**Paso 3: Desarrollo de la interfaz de usuario (UI)**
+Agregar en el archivo `hardhat/hardhat.config.ts` lo siguiente
 
-**Paso 4: Implementación de la lógica Web3**
+```shell
+import dotenv from "dotenv";
+dotenv.config();
+```
 
-**Paso 5: Pruebas y depuración**
+Crear un archivo lllamado `.env` en la ruta `hardhat/.env`. Agrega la siguiente variable de entorno
 
-**Paso 6: Implementación**
+```env
+AVAX_PRIVATE_KEY=<TU_LLAVE_PRIVADA>
+```
+
+Luego en el archivo `hardhat.config.ts` agrega el siguiente código para acceder al valor del archivo `.env` y utilizarlo en nuestro archivo de configuración
+
+```shell
+const AVAX_PRIVATE_KEY = `${process.env.AVAX_PRIVATE_KEY}` || "";
+```
+
+Luego expandimos el archivo de configuración para agregar `Avalanche Fuji`
+
+```typescript
+const config: HardhatUserConfig = {
+  solidity: "0.8.24",
+  defaultNetwork: "hardhat",
+  networks: {
+    avaxFuji: {
+      url: `https://api.avax.network/ext/bc/C/rpc`,
+      accounts: [`0x${AVAX_PRIVATE_KEY}`],
+    },
+  },
+};
+```
 
 ## Involucrarse
 
