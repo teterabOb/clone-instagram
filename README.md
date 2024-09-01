@@ -109,7 +109,7 @@ AVAX_PRIVATE_KEY=<TU_LLAVE_PRIVADA>
 
 Luego en el archivo `hardhat.config.ts` agrega el siguiente código para acceder al valor del archivo `.env` y utilizarlo en nuestro archivo de configuración
 
-```shell
+```typescript
 const AVAX_PRIVATE_KEY = `${process.env.AVAX_PRIVATE_KEY}` || "";
 ```
 
