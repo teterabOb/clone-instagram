@@ -2,21 +2,21 @@
 
 **Curso de youtube - Giberts Ahumada - Chainlink Developer Expert.**
 
-**Parte 1 -** [Youtube 1: ](https://youtu.be/w23abGly56I)
+**Parte 1 - Diseño de la solución -** [Youtube 1: ](https://youtu.be/w23abGly56I)
 
-**Parte 2 -** [Youtube 2: ](https://www.youtube.com/watch?v=Sd9I7gS_P7k)
+**Parte 2 - Configuración del mono repo -** [Youtube 2: ](https://www.youtube.com/watch?v=Sd9I7gS_P7k)
 
-**Parte 3 -** [Youtube 3: ](https://youtu.be/T9LN89OraLY)
+**Parte 3 - Arquitectura de una Aplicación Descentralizada -** [Youtube 3: ](https://youtu.be/T9LN89OraLY)
 
-**Parte 4 -** [Youtube 4: ](https://youtu.be/exeWVCim-7U)
+**Parte 4 - Desarrollo Smart Contracts-** [Youtube 4: ](https://youtu.be/exeWVCim-7U)
 
-**Parte 5 -** [Youtube 5: ]()
+**Parte 5 - Integrar Foundry en Hardhat-** [Youtube 5: ](https://youtu.be/rVj9nRp36GI)
 
-**Parte 6 -** [Youtube 6: ]()
+**Parte 6 - NatSpec, cómo comentar los Contratos-** [Youtube 6: ](https://youtu.be/O_EUT7TIP44)
 
-**Parte 7 -** [Youtube 7: ]()
+**Parte 7 - Tests con Foundry-** [Youtube 7: ](https://youtu.be/IHuIcapTmik)
 
-**Parte 8 -** [Youtube 8: ]()
+**Parte 8 - Despliegue de Contratos y Configuración adicional-** [Youtube 8: ]()
 
 [![Captura de pantalla del proyecto](https://github.com/user-attachments/assets/4534758f-3458-4f01-92b8-2bebe4976e63)](https://github.com/user-attachments/assets/4534758f-3458-4f01-92b8-2bebe4976e63)
 
