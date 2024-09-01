@@ -33,14 +33,14 @@ Este proyecto tiene como objetivo crear un clon de Instagram basado en Web3, apr
 
 * Solidity
 * React
-* Web3.js
-* Chainlink
-* ... (otras tecnologías)
+* Hardhat
+* Foundry
+* TypeScript
 
 ## Configuración Monorepo
 
 ```
-├── packages
+├── project
 │ ├── react
 │ │ ├── src
 │ │ │ └── ...
