@@ -96,7 +96,7 @@ npm i dotenv
 
 Agregar en el archivo `hardhat/hardhat.config.ts` lo siguiente
 
-```shell
+```typescript
 import dotenv from "dotenv";
 dotenv.config();
 ```
