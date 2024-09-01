@@ -10,6 +10,14 @@
 
 **Parte 4 -** [Youtube 4: ](https://youtu.be/exeWVCim-7U)
 
+**Parte 5 -** [Youtube 5: ]()
+
+**Parte 6 -** [Youtube 6: ]()
+
+**Parte 7 -** [Youtube 7: ]()
+
+**Parte 8 -** [Youtube 8: ]()
+
 [![Captura de pantalla del proyecto](https://github.com/user-attachments/assets/4534758f-3458-4f01-92b8-2bebe4976e63)](https://github.com/user-attachments/assets/4534758f-3458-4f01-92b8-2bebe4976e63)
 
 
