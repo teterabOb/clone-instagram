@@ -130,6 +130,8 @@ contract Instagram {
     /// @param _end El identificador final
     /// @return Un array de posts en el rango especificado
     function getAllPosts(uint256 _start, uint256 _end) public view returns(Post[] memory){
+        require(_start > 0 && _end > _start, "Start must be greater than 0");
+        require(s_postCounterId >= _end, "End is greater than total posts");
         uint256 length = _end - _start + 1;
         Post[] memory posts = new Post[](length);
         for (uint256 index = 0; index < length; index++) {
