@@ -18,6 +18,8 @@
 
 **Parte 8 - Despliegue de Contratos y Configuración adicional -** [Youtube 8 ]()
 
+**Parte 9 - Agregando Rutas al Front-end -** [Youtube 9 ]()
+
 [![Captura de pantalla del proyecto](https://github.com/user-attachments/assets/4534758f-3458-4f01-92b8-2bebe4976e63)](https://github.com/user-attachments/assets/4534758f-3458-4f01-92b8-2bebe4976e63)
 
 
@@ -88,6 +90,8 @@ const chainlinkData = useChainlink();
 
 ## Configuración del Proyecto
 
+### Configuración para el despliegue
+
 Instalar `dotenv`
 
 ```shell
@@ -126,6 +130,16 @@ const config: HardhatUserConfig = {
     },
   },
 };
+```
+
+### Configuración de rutas front-end
+
+Para cualquier instalación y/o configuración que hagamos en el front-end recuerda que debes posicionarte en la carpeta `react`.
+
+Instalación dependencias
+
+```shell
+npm install react-router-dom
 ```
 
 ## Involucrarse
