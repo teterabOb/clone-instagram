@@ -142,6 +142,10 @@ Instalación dependencias
 npm install react-router-dom
 ```
 
+Ver Video 9 para completar 
+
+### Instalación Tailwind CSS
+
 ## Involucrarse
 
 * Si quieres seguir todos los videos visita [la lista de reproducción](https://www.youtube.com/playlist?list=PL2uIxLJ7G8e2Y825VjgxsB8jXxTW5Tp9w).
