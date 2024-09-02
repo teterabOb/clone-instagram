@@ -1,6 +1,5 @@
-import Button from "./components/Button";
 import { Link } from "react-router-dom";
-import { Home, PlusCircle, Search } from "lucide-react";
+import { Home, PlusCircle } from "lucide-react";
 import AppRoutes from "./components/AppRoutes";
 
 function App() {
