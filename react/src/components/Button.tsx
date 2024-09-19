@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 
 interface ButtonProps {
     variant?: 'ghost' | 'default' | 'outline';
@@ -9,7 +9,7 @@ interface ButtonProps {
   
 
 
-  const Button: React.FC<ButtonProps> = ({ variant = 'default', size = 'default', onClick, children }) => {
+  const Button: React.FC<ButtonProps> = ({ onClick, children }) => {
   return (
     <button
       onClick={onClick}
