@@ -16,7 +16,7 @@ function App() {
               className="text-sm font-medium transition-colors hover:text-primary"
             >
               <Home className="size-6" />
-              <span className="sr-only">Feed</span>
+              <span className="sr-only">Feed Prod</span>
             </Link>
             <Link
               to="/create"
