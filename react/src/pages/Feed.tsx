@@ -83,7 +83,7 @@ export default function InstagramPost() {
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
               >
                 <HeartIcon
-                  className={`w-5 h-5 ${
+                  className={`size-6 ${
                     isLiked ? "text-red-500 fill-red-500" : ""
                   }`}
                 />
@@ -91,16 +91,16 @@ export default function InstagramPost() {
               <span className="sr-only">Like</span>
             </Button>
             <Button variant="ghost" size="icon" onClick={handleCommentToggle}>
-              <MessageCircleIcon className="w-5 h-5" />
+              <MessageCircleIcon className="size-6" />
               <span className="sr-only">Comment</span>
             </Button>
             <Button variant="ghost" size="icon">
-              <SendIcon className="w-5 h-5" />
+              <SendIcon className="size-6" />
               <span className="sr-only">Share</span>
             </Button>
           </div>
           <Button variant="ghost" size="icon">
-            <BookmarkIcon className="w-5 h-5" />
+            <BookmarkIcon className="size-6" />
             <span className="sr-only">Save</span>
           </Button>
         </div>

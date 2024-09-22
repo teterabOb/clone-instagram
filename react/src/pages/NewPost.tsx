@@ -27,7 +27,6 @@ export default function NewPost() {
   const [errors, setErrors] = useState<string[]>([]);
 
 
-
   // Maneja el cambio en los archivos
   const handleFilesChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     console.log(e.target.files);
