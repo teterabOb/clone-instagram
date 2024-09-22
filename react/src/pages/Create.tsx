@@ -20,18 +20,18 @@ const Create: React.FC = () => {
   };
 
   const handleNext = () => {
-    if(selectedOption){
-      navigate(selectedOption)
+    if (selectedOption) {
+      navigate(selectedOption);
     }
   };
 
-  const handleBack = () => { 
-    navigate('/')
-  }
+  const handleBack = () => {
+    navigate("/");
+  };
   return (
     <>
-       <Card className="w-full max-w-md mx-auto mt-2">
-        <Button className="w-full" onClick={ () => handleBack()}>
+      <Card className="w-full max-w-md mx-auto mt-2">
+        <Button className="w-full" onClick={() => handleBack()}>
           <ArrowLeft className="w-4 h-4" />
           Volver
         </Button>
