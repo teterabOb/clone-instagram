@@ -10,9 +10,9 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { z } from "zod";
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import { AlertCircle, CircleCheck } from "lucide-react";
-import { uploadFile, uploadMetadataToPinata, getMetadata } from "@/utils/pinata";
+import { uploadFile, uploadMetadataToPinata } from "@/utils/pinata";
 
 const postSchema = z.object({
   files: z.array(z.instanceof(File)).nonempty("At least one file is required"),
